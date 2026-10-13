@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 1; // 1. Variable initialization
+    while (a<=10){
+        cout << "The value of a is: " << a <<           '\n';
+         a++;
+        // 3. Variable increment
+    }
+    return 0;}
