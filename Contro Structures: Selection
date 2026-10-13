@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+    int x,y,Large;
+
+    cout<< "input x :";
+    cin>>x;
+    cout<< "input y:";
+    cin>>y;
+
+    if(x>y){
+        Large=x;
+        cout<<"Largest = "<<x<<endl;
+    }
+    else{
+        Large=y;
+        cout<<"Largest = "<<y;
+    }
+
+  
+return 0;   
+            
+}
