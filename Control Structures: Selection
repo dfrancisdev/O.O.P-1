@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+float gpoint;
+char letterGrade;
+
+cout<<"Input a Letter Grade:";
+cin>>letterGrade;
+
+if(letterGrade=='A')
+   gpoint=4.0;
+else if (letterGrade == 'B')
+gpoint = 3.0;
+else if (letterGrade == 'C')  
+gpoint =2.0;
+else if (letterGrade == 'D')
+gpoint = 1.0;
+else if (letterGrade == 'F')
+gpoint = 0.0;
+else
+gpoint = -1.0;
+if (gpoint < 0)
+cout<<"You have entered an invalif letter grade";
+else
+cout<<"The grade point is:"<<gpoint;
+cout<<endl;
+return 0;    
+}
